@@ -1,0 +1,166 @@
+body {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+iframe {
+  margin-top: 8%;
+}
+
+/* Navigation */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Baloo Thambi 2';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: lighter;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Title */
+
+#title {
+  background-color: #08d9d6;
+  color: #fff;
+  padding-bottom: 4%;
+}
+
+@media (max-width: 1020px) {
+  #title {
+    text-align: center;
+  }
+}
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* Features */
+
+#features {
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+.icon {
+  color: #62d2a2;
+  opacity: 0.7;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #1fab89;
+  opacity: 1;
+}
+
+/* Testimonials Section*/
+
+#testimonials {
+  text-align: center;
+  background-color: #62d2a2;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #62d2a2;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Prcing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta {
+  background-color: #08d9d6;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+/* Footer Section */
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.socials {
+  margin: 1%;
+}
+
+.socials:hover {
+  color: #08d9d6;
+}
